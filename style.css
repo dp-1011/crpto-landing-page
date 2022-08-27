@@ -1,0 +1,106 @@
+
+
+/*------------- 
+-----nav bar---
+--------------- */
+
+.logo{
+    padding: 30px;
+    border:2px white;
+    
+}
+.list-item{
+    display: inline;
+    padding-left: 100px;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-family: poppins;
+}
+.arrow{
+    width:5px;
+    height: 5px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 150px;
+    top:8px;
+}
+.navbar{
+    position: relative;
+    left: 0px;
+    top:    -20px;
+    display: inline-flex;
+    background-color:black;
+    width: 1520px;    
+}
+.vl {
+    border-left: 3px solid white;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+  }
+div{
+    border: 4px orange;
+}
+.button-small{
+    background-color: #BA0CC5;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+/* ----------
+----hero-----
+------------ */
+
+.container{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    position:absolute;
+    top: 20px;
+    left: 0px;
+    
+}
+.hero-heading{
+    font-size: 70px;
+    text-align: center;
+    width:800px;
+    position:absolute;
+    left: 400px; 
+    color: white;
+    font-family: poppins;
+}
+.hero-description{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 470px;
+    font-family: poppins;
+}
+.button-large{
+    background-color: #BA0CC5;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    left: 610px;
+    top: 450px;
+    font-size: 30px;
+
+}
